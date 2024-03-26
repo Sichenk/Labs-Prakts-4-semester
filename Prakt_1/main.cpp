@@ -10,68 +10,68 @@
 using namespace std;
 
 void mainMenu() {
-    cout << "<1> Блок linked lists." << endl;
-    cout << "<2> Блок stack." << endl;
-    cout << "<3> Блок queue." << endl;
-    cout << "<4> Блок hash." << endl;
-    cout << "<6> Блок инкапсуляция." << endl;
-    cout << "<7> Блок наследования." << endl;
-    cout << "<8> Блок полиморфизма." << endl;
-    cout << "<9> Блок типизации." << endl;
-    cout << "<0> Выход." << endl;
+    cout << "<1> Р‘Р»РѕРє linked lists." << endl;
+    cout << "<2> Р‘Р»РѕРє stack." << endl;
+    cout << "<3> Р‘Р»РѕРє queue." << endl;
+    cout << "<4> Р‘Р»РѕРє hash." << endl;
+    cout << "<6> Р‘Р»РѕРє РёРЅРєР°РїСЃСѓР»СЏС†РёСЏ." << endl;
+    cout << "<7> Р‘Р»РѕРє РЅР°СЃР»РµРґРѕРІР°РЅРёСЏ." << endl;
+    cout << "<8> Р‘Р»РѕРє РїРѕР»РёРјРѕСЂС„РёР·РјР°." << endl;
+    cout << "<9> Р‘Р»РѕРє С‚РёРїРёР·Р°С†РёРё." << endl;
+    cout << "<0> Р’С‹С…РѕРґ." << endl;
 }
 
 void stackMenu() {
-    cout << "<1> Управление вызовами функций" << endl;
-    cout << "<2> Обработка и отмена операций" << endl;
-    cout << "<3> Проверка сбалансированности скобок" << endl;
+    cout << "<1> РЈРїСЂР°РІР»РµРЅРёРµ РІС‹Р·РѕРІР°РјРё С„СѓРЅРєС†РёР№" << endl;
+    cout << "<2> РћР±СЂР°Р±РѕС‚РєР° Рё РѕС‚РјРµРЅР° РѕРїРµСЂР°С†РёР№" << endl;
+    cout << "<3> РџСЂРѕРІРµСЂРєР° СЃР±Р°Р»Р°РЅСЃРёСЂРѕРІР°РЅРЅРѕСЃС‚Рё СЃРєРѕР±РѕРє" << endl;
 }
 
 void queueMenu() {
-    cout << "<1> Cистема обработки заявок" << endl;
-    cout << "<2> Планирование задач" << endl;
-    cout << "<3> Буферизация данных" << endl;
-    cout << "<4> Обработка событий" << endl;
-    cout << "<5> Координация работы множества потоков" << endl;
+    cout << "<1> CРёСЃС‚РµРјР° РѕР±СЂР°Р±РѕС‚РєРё Р·Р°СЏРІРѕРє" << endl;
+    cout << "<2> РџР»Р°РЅРёСЂРѕРІР°РЅРёРµ Р·Р°РґР°С‡" << endl;
+    cout << "<3> Р‘СѓС„РµСЂРёР·Р°С†РёСЏ РґР°РЅРЅС‹С…" << endl;
+    cout << "<4> РћР±СЂР°Р±РѕС‚РєР° СЃРѕР±С‹С‚РёР№" << endl;
+    cout << "<5> РљРѕРѕСЂРґРёРЅР°С†РёСЏ СЂР°Р±РѕС‚С‹ РјРЅРѕР¶РµСЃС‚РІР° РїРѕС‚РѕРєРѕРІ" << endl;
 }
 
 void hashTableMenu() {
-    cout << "<1> Поиск элементов" << endl;
-    cout << "<2> Устранение дубликатов" << endl;
-    cout << "<3> Кэширование" << endl;
-    cout << "<4> Подсчет частоты элементов" << endl;
+    cout << "<1> РџРѕРёСЃРє СЌР»РµРјРµРЅС‚РѕРІ" << endl;
+    cout << "<2> РЈСЃС‚СЂР°РЅРµРЅРёРµ РґСѓР±Р»РёРєР°С‚РѕРІ" << endl;
+    cout << "<3> РљСЌС€РёСЂРѕРІР°РЅРёРµ" << endl;
+    cout << "<4> РџРѕРґСЃС‡РµС‚ С‡Р°СЃС‚РѕС‚С‹ СЌР»РµРјРµРЅС‚РѕРІ" << endl;
 }
 
 void encapsulationMenu() {
-    cout << "<1> Создание шаблона класса `Счет`" << endl;
-    cout << "<2> Реализация шаблона класса `Обьект`" << endl;
-    cout << "<3> Создание класса `Пользователь`" << endl;
+    cout << "<1> РЎРѕР·РґР°РЅРёРµ С€Р°Р±Р»РѕРЅР° РєР»Р°СЃСЃР° `РЎС‡РµС‚`" << endl;
+    cout << "<2> Р РµР°Р»РёР·Р°С†РёСЏ С€Р°Р±Р»РѕРЅР° РєР»Р°СЃСЃР° `РћР±СЊРµРєС‚`" << endl;
+    cout << "<3> РЎРѕР·РґР°РЅРёРµ РєР»Р°СЃСЃР° `РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ`" << endl;
 }
 
 void inheritanceMenu() {
-    cout << "<1> Создание класса и его подклассов из области `Безопасность зданий и сооружений`" << endl;
+    cout << "<1> РЎРѕР·РґР°РЅРёРµ РєР»Р°СЃСЃР° Рё РµРіРѕ РїРѕРґРєР»Р°СЃСЃРѕРІ РёР· РѕР±Р»Р°СЃС‚Рё `Р‘РµР·РѕРїР°СЃРЅРѕСЃС‚СЊ Р·РґР°РЅРёР№ Рё СЃРѕРѕСЂСѓР¶РµРЅРёР№`" << endl;
 }
 
 void polymorphismMenu() {
-    cout << "<1> Разработка механизма позволяющего применять общие методы для различных классов объектов из области `Безопасность зданий и сооружений`" << endl;
+    cout << "<1> Р Р°Р·СЂР°Р±РѕС‚РєР° РјРµС…Р°РЅРёР·РјР° РїРѕР·РІРѕР»СЏСЋС‰РµРіРѕ РїСЂРёРјРµРЅСЏС‚СЊ РѕР±С‰РёРµ РјРµС‚РѕРґС‹ РґР»СЏ СЂР°Р·Р»РёС‡РЅС‹С… РєР»Р°СЃСЃРѕРІ РѕР±СЉРµРєС‚РѕРІ РёР· РѕР±Р»Р°СЃС‚Рё `Р‘РµР·РѕРїР°СЃРЅРѕСЃС‚СЊ Р·РґР°РЅРёР№ Рё СЃРѕРѕСЂСѓР¶РµРЅРёР№`" << endl;
 }
 
 void typificationMenu() {
-    cout << "<1> Неявная типизация данных для определения типов ключей и значений словаря" << endl;
-    cout << "<2> Функция, которая возвращает результат, полученный путем повторения строки указанное количество раз" << endl;
+    cout << "<1> РќРµСЏРІРЅР°СЏ С‚РёРїРёР·Р°С†РёСЏ РґР°РЅРЅС‹С… РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ С‚РёРїРѕРІ РєР»СЋС‡РµР№ Рё Р·РЅР°С‡РµРЅРёР№ СЃР»РѕРІР°СЂСЏ" << endl;
+    cout << "<2> Р¤СѓРЅРєС†РёСЏ, РєРѕС‚РѕСЂР°СЏ РІРѕР·РІСЂР°С‰Р°РµС‚ СЂРµР·СѓР»СЊС‚Р°С‚, РїРѕР»СѓС‡РµРЅРЅС‹Р№ РїСѓС‚РµРј РїРѕРІС‚РѕСЂРµРЅРёСЏ СЃС‚СЂРѕРєРё СѓРєР°Р·Р°РЅРЅРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЂР°Р·" << endl;
 }
 
 void sllBlock() {
     SinglyLinkedList list;
     list.testRemoveFirst();
     list.testRemoveAll();
-    cout << "Все тесты пройдены!" << endl;
+    cout << "Р’СЃРµ С‚РµСЃС‚С‹ РїСЂРѕР№РґРµРЅС‹!" << endl;
 }
 
 void stackBlock() {
     Stack stack;
     stackMenu();
-    cout << "Введите номер задания: ";
+    cout << "Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ Р·Р°РґР°РЅРёСЏ: ";
     int number = 0;
     cin >> number;
     switch (number) {
@@ -81,8 +81,8 @@ void stackBlock() {
         callStack.firstFunction(callStack);
         callStack.secondFunction(callStack);
 
-        // Выводим вызовы функций из стека
-        cout << "Вызовы функций:" << endl;
+        // Р’С‹РІРѕРґРёРј РІС‹Р·РѕРІС‹ С„СѓРЅРєС†РёР№ РёР· СЃС‚РµРєР°
+        cout << "Р’С‹Р·РѕРІС‹ С„СѓРЅРєС†РёР№:" << endl;
         while (true) {
             char functionName = callStack.SPOP();
             if (functionName == NULL) {
@@ -98,33 +98,33 @@ void stackBlock() {
         char operation1 = 'A';
         char operation2 = 'B';
 
-        // Выполняем операции
+        // Р’С‹РїРѕР»РЅСЏРµРј РѕРїРµСЂР°С†РёРё
         undoRedoStack.executeOperation(operation1);
         undoRedoStack.executeOperation(operation2);
 
-        // Отменяем последнюю операцию
+        // РћС‚РјРµРЅСЏРµРј РїРѕСЃР»РµРґРЅСЋСЋ РѕРїРµСЂР°С†РёСЋ
         undoRedoStack.undoOperation();
 
-        // Повторяем отмененную операцию
+        // РџРѕРІС‚РѕСЂСЏРµРј РѕС‚РјРµРЅРµРЅРЅСѓСЋ РѕРїРµСЂР°С†РёСЋ
         undoRedoStack.redoOperation();
         break;
     }
     case 3: {
         string expression;
-        cout << "Введите строку с выражением: ";
+        cout << "Р’РІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ СЃ РІС‹СЂР°Р¶РµРЅРёРµРј: ";
         cin.ignore();
         getline(cin, expression);
 
         if (stack.isBalanced(expression)) {
-            cout << "Скобки сбалансированы." << endl;
+            cout << "РЎРєРѕР±РєРё СЃР±Р°Р»Р°РЅСЃРёСЂРѕРІР°РЅС‹." << endl;
         }
         else {
-            cout << "Скобки не сбалансированы." << endl;
+            cout << "РЎРєРѕР±РєРё РЅРµ СЃР±Р°Р»Р°РЅСЃРёСЂРѕРІР°РЅС‹." << endl;
         }
         break;
     }
     default: {
-        cout << "Некорректный номер." << endl;
+        cout << "РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РЅРѕРјРµСЂ." << endl;
         break;
     }
     }
@@ -132,65 +132,65 @@ void stackBlock() {
 
 void queueBlock() {
     queueMenu();
-    cout << "Введите номер задания: ";
+    cout << "Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ Р·Р°РґР°РЅРёСЏ: ";
     int number = 0;
     cin >> number;
     switch (number) {
     case 1: {
         RequestSystem requestSystem;
 
-        string request1 = "Заявка A";
-        string request2 = "Заявка B";
+        string request1 = "Р—Р°СЏРІРєР° РЅР° СѓСЃС‚Р°РЅРѕРІРєСѓ РґР°С‚С‡РёРєРѕРІ С‚РµРјРїРµСЂР°С‚СѓСЂС‹";
+        string request2 = "Р—Р°СЏРІРєР° РЅР° СѓСЃС‚Р°РЅРѕРІРєСѓ РґР°С‚С‡РёРєРѕРІ С€СѓРјР°";
 
-        // Подаем заявки
+        // РџРѕРґР°РµРј Р·Р°СЏРІРєРё
         requestSystem.submitRequest(request1);
         requestSystem.submitRequest(request2);
 
-        // Обрабатываем заявки
+        // РћР±СЂР°Р±Р°С‚С‹РІР°РµРј Р·Р°СЏРІРєРё
         requestSystem.processRequests();
         break;
     }
     case 2: {
         TaskScheduler taskScheduler;
 
-        string task1 = "Задача 1";
-        string task2 = "Задача 2";
-        string task3 = "Задача 3";
+        string task1 = "Р—Р°РґР°С‡Р° 1";
+        string task2 = "Р—Р°РґР°С‡Р° 2";
+        string task3 = "Р—Р°РґР°С‡Р° 3";
 
-        // Добавляем задачи в очередь
+        // Р”РѕР±Р°РІР»СЏРµРј Р·Р°РґР°С‡Рё РІ РѕС‡РµСЂРµРґСЊ
         taskScheduler.addTask(task1);
         taskScheduler.addTask(task2);
         taskScheduler.addTask(task3);
 
-        // Выполняем все задачи
+        // Р’С‹РїРѕР»РЅСЏРµРј РІСЃРµ Р·Р°РґР°С‡Рё
         taskScheduler.executeTasks();
         break;
     }
     case 3: {
         DataBuffer dataBuffer;
 
-        string data1 = "Данные A";
-        string data2 = "Данные B";
+        string data1 = "Р”Р°РЅРЅС‹Рµ РѕР± СѓСЃС‚Р°РЅРѕРІРєРµ РґР°С‚С‡РёРєРѕРІ С‚РµРјРїРµСЂР°С‚СѓСЂС‹";
+        string data2 = "Р”Р°РЅРЅС‹Рµ РѕР± СѓСЃС‚Р°РЅРѕРІРєСѓ РґР°С‚С‡РёРєРѕРІ С€СѓРјР°";
 
-        // Добавляем данные в буфер
+        // Р”РѕР±Р°РІР»СЏРµРј РґР°РЅРЅС‹Рµ РІ Р±СѓС„РµСЂ
         dataBuffer.addToBuffer(data1);
         dataBuffer.addToBuffer(data2);
 
-        // Обрабатываем данные в буфере
+        // РћР±СЂР°Р±Р°С‚С‹РІР°РµРј РґР°РЅРЅС‹Рµ РІ Р±СѓС„РµСЂРµ
         dataBuffer.processBuffer();
         break;
     }
     case 4: {
         EventQueue eventQueue;
 
-        string event1 = "Событие A";
-        string event2 = "Событие B";
+        string event1 = "РЎРѕР±С‹С‚РёРµ: СѓСЃС‚Р°РЅРѕРІРєР° РґР°С‚С‡РёРєР° С€СѓРјР°";
+        string event2 = "РЎРѕР±С‹С‚РёРµ: СѓСЃС‚Р°РЅРѕРІРєР° РґР°С‚С‡РёРєР° С‚РµРјРїРµСЂР°С‚СѓСЂС‹";
 
-        // Добавляем события в очередь
+        // Р”РѕР±Р°РІР»СЏРµРј СЃРѕР±С‹С‚РёСЏ РІ РѕС‡РµСЂРµРґСЊ
         eventQueue.addEvent(event1);
         eventQueue.addEvent(event2);
 
-        // Обрабатываем события
+        // РћР±СЂР°Р±Р°С‚С‹РІР°РµРј СЃРѕР±С‹С‚РёСЏ
         eventQueue.processEvents();
         break;
     }
@@ -199,7 +199,7 @@ void queueBlock() {
         vector<thread> producers;
         vector<thread> executors;
 
-        // Создаем и запускаем потоки-производители и потоки-потребители
+        // РЎРѕР·РґР°РµРј Рё Р·Р°РїСѓСЃРєР°РµРј РїРѕС‚РѕРєРё-РїСЂРѕРёР·РІРѕРґРёС‚РµР»Рё Рё РїРѕС‚РѕРєРё-РїРѕС‚СЂРµР±РёС‚РµР»Рё
         for (int i = 0; i < 3; ++i) {
             producers.emplace_back(producer, ref(taskQueue), i + 1);
         }
@@ -208,12 +208,12 @@ void queueBlock() {
             executors.emplace_back(executor, ref(taskQueue), i + 1);
         }
 
-        // Дожидаемся завершения всех потоков
+        // Р”РѕР¶РёРґР°РµРјСЃСЏ Р·Р°РІРµСЂС€РµРЅРёСЏ РІСЃРµС… РїРѕС‚РѕРєРѕРІ
         for (auto& producerThread : producers) {
             producerThread.join();
         }
 
-        // Добавляем в очередь пустые задачи для завершения потоков-исполнителей
+        // Р”РѕР±Р°РІР»СЏРµРј РІ РѕС‡РµСЂРµРґСЊ РїСѓСЃС‚С‹Рµ Р·Р°РґР°С‡Рё РґР»СЏ Р·Р°РІРµСЂС€РµРЅРёСЏ РїРѕС‚РѕРєРѕРІ-РёСЃРїРѕР»РЅРёС‚РµР»РµР№
         for (int i = 0; i < 2; ++i) {
             string empty = "";
             taskQueue.QPUSH(empty);
@@ -225,7 +225,7 @@ void queueBlock() {
         break;
     }
     default: {
-        cout << "Некорректный номер." << endl;
+        cout << "РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РЅРѕРјРµСЂ." << endl;
         break;
     }
     }
@@ -233,14 +233,14 @@ void queueBlock() {
 
 void hashTableBlock() {
     hashTableMenu();
-    cout << "Введите номер задания: ";
+    cout << "Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ Р·Р°РґР°РЅРёСЏ: ";
     int number = 0;
     cin >> number;
     switch (number) {
     case 1: {
         HashTable myTable;
 
-        // Добавление элементов
+        // Р”РѕР±Р°РІР»РµРЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ
         string key1 = "key1";
         string value1 = "value1";
 
@@ -254,20 +254,20 @@ void hashTableBlock() {
         myTable.HSET(key2, value2);
         myTable.HSET(key3, value3);
 
-        // Поиск элементов
-        cout << "Значение для " << key1 << ": " << myTable.HGET(key1) << endl;
-        cout << "Значение для " << key2 << ": " << myTable.HGET(key2) << endl;
-        cout << "Значение для " << key3 << ": " << myTable.HGET(key3) << endl;
+        // РџРѕРёСЃРє СЌР»РµРјРµРЅС‚РѕРІ
+        cout << "Р—РЅР°С‡РµРЅРёРµ РґР»СЏ " << key1 << ": " << myTable.HGET(key1) << endl;
+        cout << "Р—РЅР°С‡РµРЅРёРµ РґР»СЏ " << key2 << ": " << myTable.HGET(key2) << endl;
+        cout << "Р—РЅР°С‡РµРЅРёРµ РґР»СЏ " << key3 << ": " << myTable.HGET(key3) << endl;
         cout << "-------------------------" << endl;
 
-        // Удаление элемента
+        // РЈРґР°Р»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р°
         myTable.HDEL(key2);
 
-        // Повторный поиск элементов
-        cout << "Значение для " << key1 << ": " << myTable.HGET(key1) << endl;
-        // Должно быть пусто после удаления
-        cout << "Значение для " << key2 << ": " << myTable.HGET(key2) << endl;  
-        cout << "Значение для " << key3 << ": " << myTable.HGET(key3) << endl;
+        // РџРѕРІС‚РѕСЂРЅС‹Р№ РїРѕРёСЃРє СЌР»РµРјРµРЅС‚РѕРІ
+        cout << "Р—РЅР°С‡РµРЅРёРµ РґР»СЏ " << key1 << ": " << myTable.HGET(key1) << endl;
+        // Р”РѕР»Р¶РЅРѕ Р±С‹С‚СЊ РїСѓСЃС‚Рѕ РїРѕСЃР»Рµ СѓРґР°Р»РµРЅРёСЏ
+        cout << "Р—РЅР°С‡РµРЅРёРµ РґР»СЏ " << key2 << ": " << myTable.HGET(key2) << endl;  
+        cout << "Р—РЅР°С‡РµРЅРёРµ РґР»СЏ " << key3 << ": " << myTable.HGET(key3) << endl;
         break;
     }
     case 2: {
@@ -284,10 +284,10 @@ void hashTableBlock() {
 
         myTable.HSET(key1, value1);
         myTable.HSET(key2, value2);
-        myTable.HSET(key1, value3);  // Дубликат, будет проигнорирован
+        myTable.HSET(key1, value3);  // Р”СѓР±Р»РёРєР°С‚, Р±СѓРґРµС‚ РїСЂРѕРёРіРЅРѕСЂРёСЂРѕРІР°РЅ
 
-        cout << "Value for key1: " << myTable.HGET(key1) << endl;  // Должно быть "value1"
-        cout << "Value for key2: " << myTable.HGET(key2) << endl;  // Должно быть "value2"
+        cout << "Value for key1: " << myTable.HGET(key1) << endl;  // Р”РѕР»Р¶РЅРѕ Р±С‹С‚СЊ "value1"
+        cout << "Value for key2: " << myTable.HGET(key2) << endl;  // Р”РѕР»Р¶РЅРѕ Р±С‹С‚СЊ "value2"
         break;
     }
     case 3: {
@@ -296,7 +296,7 @@ void hashTableBlock() {
         string key1 = "fibNumber7";
         string key2 = "fibNumber8";
         string key3 = "fibNumber9";
-        // Вычисляем и сохраняем результаты
+        // Р’С‹С‡РёСЃР»СЏРµРј Рё СЃРѕС…СЂР°РЅСЏРµРј СЂРµР·СѓР»СЊС‚Р°С‚С‹
         string result1 = to_string(fibonacci(7));
         myResults.HSET(key1, result1);
 
@@ -306,10 +306,10 @@ void hashTableBlock() {
         string result3 = to_string(fibonacci(9));
         myResults.HSET(key3, result3);
 
-        // Получаем результаты из хэш-таблицы
-        cout << "Результат для ключа 'fibNumber7': " << myResults.HGET(key1) << endl;
-        cout << "Результат для ключа 'fibNumber8': " << myResults.HGET(key2) << endl;
-        cout << "Результат для ключа 'fibNumber9': " << myResults.HGET(key3) << endl;
+        // РџРѕР»СѓС‡Р°РµРј СЂРµР·СѓР»СЊС‚Р°С‚С‹ РёР· С…СЌС€-С‚Р°Р±Р»РёС†С‹
+        cout << "Р РµР·СѓР»СЊС‚Р°С‚ РґР»СЏ РєР»СЋС‡Р° 'fibNumber7': " << myResults.HGET(key1) << endl;
+        cout << "Р РµР·СѓР»СЊС‚Р°С‚ РґР»СЏ РєР»СЋС‡Р° 'fibNumber8': " << myResults.HGET(key2) << endl;
+        cout << "Р РµР·СѓР»СЊС‚Р°С‚ РґР»СЏ РєР»СЋС‡Р° 'fibNumber9': " << myResults.HGET(key3) << endl;
         break;
     }
     case 4: {
@@ -323,17 +323,17 @@ void hashTableBlock() {
 
         myTable.HSET(key1, value1);
         myTable.HSET(key2, value2);
-        myTable.HSET(key1, value1);  // Дубликат, увеличит частоту
+        myTable.HSET(key1, value1);  // Р”СѓР±Р»РёРєР°С‚, СѓРІРµР»РёС‡РёС‚ С‡Р°СЃС‚РѕС‚Сѓ
 
-        cout << "Частота элемента 'key1': " << myTable.HGETFR(key1) << endl;
-        cout << "Частота элемента 'key2': " << myTable.HGETFR(key2) << endl;
+        cout << "Р§Р°СЃС‚РѕС‚Р° СЌР»РµРјРµРЅС‚Р° 'key1': " << myTable.HGETFR(key1) << endl;
+        cout << "Р§Р°СЃС‚РѕС‚Р° СЌР»РµРјРµРЅС‚Р° 'key2': " << myTable.HGETFR(key2) << endl;
 
-        myTable.HDEL(key1);  // Удаление элемента
-        cout << "Частота элемента 'key1' после удаления: " << myTable.HGETFR(key1) << endl;
+        myTable.HDEL(key1);  // РЈРґР°Р»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р°
+        cout << "Р§Р°СЃС‚РѕС‚Р° СЌР»РµРјРµРЅС‚Р° 'key1' РїРѕСЃР»Рµ СѓРґР°Р»РµРЅРёСЏ: " << myTable.HGETFR(key1) << endl;
         break;
     }
     default: {
-        cout << "Некорректный номер." << endl;
+        cout << "РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РЅРѕРјРµСЂ." << endl;
         break;
     }
     }
@@ -341,66 +341,66 @@ void hashTableBlock() {
 
 void encapsulationBlock () {
     encapsulationMenu();
-    cout << "Введите номер задания: ";
+    cout << "Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ Р·Р°РґР°РЅРёСЏ: ";
     int number = 0;
     cin >> number;
     switch (number) {
     case 1: {
-        // Пример использования шаблона класса "Счет" с типом данных double
+        // РџСЂРёРјРµСЂ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ С€Р°Р±Р»РѕРЅР° РєР»Р°СЃСЃР° "РЎС‡РµС‚" СЃ С‚РёРїРѕРј РґР°РЅРЅС‹С… double
         Account<double> doubleAccount(100.0);
         doubleAccount.deposit(50.5);
         doubleAccount.withdraw(30.2);
 
-        cout << "Текущий баланс: " << doubleAccount.getBalance() << endl;
+        cout << "РўРµРєСѓС‰РёР№ Р±Р°Р»Р°РЅСЃ: " << doubleAccount.getBalance() << endl;
 
-        // Пример использования шаблона класса "Счет" с типом данных int
+        // РџСЂРёРјРµСЂ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ С€Р°Р±Р»РѕРЅР° РєР»Р°СЃСЃР° "РЎС‡РµС‚" СЃ С‚РёРїРѕРј РґР°РЅРЅС‹С… int
         Account<int> intAccount(200);
         intAccount.deposit(50);
         intAccount.withdraw(300);
 
-        cout << "Текущий баланс: " << intAccount.getBalance() << endl;
+        cout << "РўРµРєСѓС‰РёР№ Р±Р°Р»Р°РЅСЃ: " << intAccount.getBalance() << endl;
         break;
     }
     case 2: {
-        // Пример использования шаблона класса "Объект" с типом данных double
+        // РџСЂРёРјРµСЂ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ С€Р°Р±Р»РѕРЅР° РєР»Р°СЃСЃР° "РћР±СЉРµРєС‚" СЃ С‚РёРїРѕРј РґР°РЅРЅС‹С… double
         Object<double> doubleObject("DoubleObject", 3.14);
         doubleObject.displayInfo();
 
-        // Пример использования шаблона класса "Объект" с типом данных int
+        // РџСЂРёРјРµСЂ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ С€Р°Р±Р»РѕРЅР° РєР»Р°СЃСЃР° "РћР±СЉРµРєС‚" СЃ С‚РёРїРѕРј РґР°РЅРЅС‹С… int
         Object<int> intObject("IntObject", 42);
         intObject.displayInfo();
 
         intObject.increaseData(2);
-        cout << "Данные четные: " << (intObject.isDataEven() ? "Да" : "Нет") << endl;
+        cout << "Р”Р°РЅРЅС‹Рµ С‡РµС‚РЅС‹Рµ: " << (intObject.isDataEven() ? "Р”Р°" : "РќРµС‚") << endl;
         intObject.resetData();
         intObject.displayInfo();
 
-        // Изменение данных объекта и повторный вывод информации
+        // РР·РјРµРЅРµРЅРёРµ РґР°РЅРЅС‹С… РѕР±СЉРµРєС‚Р° Рё РїРѕРІС‚РѕСЂРЅС‹Р№ РІС‹РІРѕРґ РёРЅС„РѕСЂРјР°С†РёРё
         intObject.setData(100);
         intObject.displayInfo();
         break;
     }
     case 3: {
-        // Пример использования класса "Пользователь"
+        // РџСЂРёРјРµСЂ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РєР»Р°СЃСЃР° "РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ"
         User user("NikitaSilchenko", "password123");
 
-        // Попытка аутентификации
+        // РџРѕРїС‹С‚РєР° Р°СѓС‚РµРЅС‚РёС„РёРєР°С†РёРё
         if (user.authenticate("password123")) {
-            cout << "Аутентификация успешна для пользователя: " << user.getUsername() << endl;
+            cout << "РђСѓС‚РµРЅС‚РёС„РёРєР°С†РёСЏ СѓСЃРїРµС€РЅР° РґР»СЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ: " << user.getUsername() << endl;
 
-            // Изменение пароля
+            // РР·РјРµРЅРµРЅРёРµ РїР°СЂРѕР»СЏ
             user.changePassword("newPassword456");
 
-            // Доступ к профилю
+            // Р”РѕСЃС‚СѓРї Рє РїСЂРѕС„РёР»СЋ
             user.userProfileAction();
         }
         else {
-            cout << "Ошибка аутентификации. Неверный пароль." << endl;
+            cout << "РћС€РёР±РєР° Р°СѓС‚РµРЅС‚РёС„РёРєР°С†РёРё. РќРµРІРµСЂРЅС‹Р№ РїР°СЂРѕР»СЊ." << endl;
         }
         break;
     }
     default: {
-        cout << "Некорректный номер." << endl;
+        cout << "РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РЅРѕРјРµСЂ." << endl;
         break;
     }
     }
@@ -408,12 +408,12 @@ void encapsulationBlock () {
 
 void inheritanceBlock() {
     inheritanceMenu();
-    cout << "Введите номер задания: ";
+    cout << "Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ Р·Р°РґР°РЅРёСЏ: ";
     int number = 0;
     cin >> number;
     switch (number) {
     case 1: {
-        // Пример использования классов
+        // РџСЂРёРјРµСЂ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РєР»Р°СЃСЃРѕРІ
         ResidentialBuildingInh residential("123 Lenina", 5, 20);
         residential.displayResidentialInfo();
 
@@ -424,7 +424,7 @@ void inheritanceBlock() {
         break;
     }
     default: {
-        cout << "Некорректный номер." << endl;
+        cout << "РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РЅРѕРјРµСЂ." << endl;
         break;
     }
     }
@@ -432,23 +432,23 @@ void inheritanceBlock() {
 
 void polymorphismBlock() {
     polymorphismMenu();
-    cout << "Введите номер задания: ";
+    cout << "Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ Р·Р°РґР°РЅРёСЏ: ";
     int number = 0;
     cin >> number;
     switch (number) {
     case 1: {
-        // Пример использования полиморфизма
+        // РџСЂРёРјРµСЂ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РїРѕР»РёРјРѕСЂС„РёР·РјР°
         ResidentialBuildingPol residential("123 Lenina", 5, 20);
         OfficeBuildingPol office("456 Titova", 10, 50);
 
-        // Полиморфизм: передача объектов различных классов через указатель на базовый класс
+        // РџРѕР»РёРјРѕСЂС„РёР·Рј: РїРµСЂРµРґР°С‡Р° РѕР±СЉРµРєС‚РѕРІ СЂР°Р·Р»РёС‡РЅС‹С… РєР»Р°СЃСЃРѕРІ С‡РµСЂРµР· СѓРєР°Р·Р°С‚РµР»СЊ РЅР° Р±Р°Р·РѕРІС‹Р№ РєР»Р°СЃСЃ
         showBuildingInfo(&residential);
         cout << endl;
         showBuildingInfo(&office);
         break;
     }
     default: {
-        cout << "Некорректный номер." << endl;
+        cout << "РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РЅРѕРјРµСЂ." << endl;
         break;
     }
     }
@@ -456,7 +456,7 @@ void polymorphismBlock() {
 
 void typificationBlock() {
     typificationMenu();
-    cout << "Введите номер задания: ";
+    cout << "Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ Р·Р°РґР°РЅРёСЏ: ";
     int number = 0;
     cin >> number;
     switch (number) {
@@ -465,12 +465,12 @@ void typificationBlock() {
         break;
     }
     case 2: {
-        auto repeatedString = repeatString(3, "Привет, ");
+        auto repeatedString = repeatString(3, "РџСЂРёРІРµС‚, ");
         cout << repeatedString << endl;
         break;
     }
     default: {
-        cout << "Некорректный номер." << endl;
+        cout << "РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РЅРѕРјРµСЂ." << endl;
         break;
     }
     }
@@ -481,7 +481,7 @@ int main() {
     mainMenu();
     while (true) {
         int choice = 0;
-        cout << "Введите номер блока: ";
+        cout << "Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ Р±Р»РѕРєР°: ";
         cin >> choice;
         switch (choice) {
         case 1: {     
@@ -520,7 +520,7 @@ int main() {
             return 1;
         }
         default: {
-            cout << "Некорректный номер. Повторите попытку." << endl;
+            cout << "РќРµРєРѕСЂСЂРµРєС‚РЅС‹Р№ РЅРѕРјРµСЂ. РџРѕРІС‚РѕСЂРёС‚Рµ РїРѕРїС‹С‚РєСѓ." << endl;
             break;
         }
         }
