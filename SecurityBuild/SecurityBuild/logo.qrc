@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/logoPrefix">
+        <file>pirctures/city1.png</file>
+        <file>pirctures/lock.png</file>
+        <file>pirctures/logo.png</file>
+        <file>pirctures/profile.png</file>
+        <file>pirctures/frame.png</file>
+        <file>pirctures/connect.png</file>
+        <file>pirctures/camera.png</file>
+        <file>pirctures/turn_off.png</file>
+        <file>pirctures/record_end.png</file>
+        <file>pirctures/record_start.png</file>
+    </qresource>
+</RCC>
