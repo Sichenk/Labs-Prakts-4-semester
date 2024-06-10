@@ -52,7 +52,7 @@ private:
     bool manualStop = false; // Флаг для отслеживания ручной остановки
     cv::VideoCapture capture;
     cv::VideoWriter video;
-    const double MAX_FOLDER_SIZE = 50 * 1024; // 10 ГБ в байтах
+    const double MAX_FOLDER_SIZE = 50 * 1024; // 50 ГБ в байтах
     void cleanUpFolder(const QString& folderName) {
         QDir folder(folderName);
         QFileInfoList files = folder.entryInfoList(QDir::Files, QDir::Time | QDir::Reversed);
